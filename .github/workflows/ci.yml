@@ -57,7 +57,7 @@ jobs:
 
       - name: Test endpoint with secret
         run: |
-          # Test endpointu pogody dla Zakopanego
+          # Test endpointu pogody dla Poznania
           response=$(curl http://localhost:3000/weather/Poznan)
           if [[ $response == *"tired"* ]]; then
             echo "Aplikacja jest zmêczona, szefie."
