@@ -54,3 +54,6 @@ terraform.tfvars
 *.tfstate
 *.tfstate.backup
 .terraform/
+
+#Visual Studio
+.vs
