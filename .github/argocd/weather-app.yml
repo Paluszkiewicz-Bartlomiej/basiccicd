@@ -20,7 +20,7 @@ spec:
     # Directory - deploy wszystkich YAML w katalogu
     directory:
       recurse: false
-      include: '{namespace,deployment,service,ingress}.yaml'
+      include: '{secret,namespace,deployment,service,ingress}.yaml'
   
   # Destination - gdzie wdrożyć
   destination:
