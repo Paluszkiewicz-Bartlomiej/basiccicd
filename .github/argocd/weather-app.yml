@@ -14,7 +14,7 @@ spec:
   source:
     # UWAGA: Zmień na URL swojego forka!
     repoURL: https://github.com/Paluszkiewicz-Bartlomiej/basiccicd.git
-    targetRevision: main #branch!
+    targetRevision: argo-cd #branch!
     path: infra/weather_app_manifests
     
     # Directory - deploy wszystkich YAML w katalogu
